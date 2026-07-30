@@ -24,7 +24,7 @@
 partition-1/                               -- загрузочный раздел
 └── grub/                                  -- система загрузки
     ├── -> partition-3/home/               -- (опционально) ссылка на раздел с home-директорией
-    └── -> partition-2/filesystem/iso/     -- ссылка на систему запуска из iso (опционально - ссылка на раздел boot/ )
+    └── -> partition-2/filesystem/iso/     -- ссылка на систему запуска из iso (или boot/ )
         ├── vmlinuz
         └── initrd.xz
 
