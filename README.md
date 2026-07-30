@@ -6,7 +6,7 @@
 Работа кипит благодаря существованию следующий проектов: [Porteus](https://forum.porteus.org/), [Nemesis](https://distrowatch.com/table.php?distribution=nemesis), [Artix](https://artixlinux.org/).
 Счастья вам и процветания! &#x1F64F;
 
-> Вот тут скриншот будет. Пока что представьте сами, пожалуйста, что он есть
+> Вот тут скриншот будет. Пока что представьте сами, пожалуйста, что он есть.
 
 АрСений - модульная система на базе Porteus+Arch с простой установкой. Для тех, кому нужна стабильность, настоятельно рекомендуется рассмотреть официальные дистрибутивы [Porteus](https://forum.porteus.org/). В данном проекте целью стоит запуск стороннего образа системы ради расширения используемых концепций и инструментов. Рассчитан на тех, кто хочет простой работы с арчем, кстати.
 
@@ -15,7 +15,7 @@
 
 ## Установка
 
-> Скоро что-нибудь придумаем
+> Скоро что-нибудь придумаем.
 
 
 ## Целевая структура
@@ -55,10 +55,10 @@ partition-3/          -- раздел с пользовательской дир
 ## Альтернативные проекты
 
 > Вас так же могут заинтересовать следующие работы:
->   - Slax: [сайт](https://www.slax.org/), [зеркало](https://ftp.cvut.cz/slax/) - легковесный модульный дистрибутив, с основой на debian или slackware.
->   - Porteus: [форум](https://forum.porteus.org/), [зеркало](https://mirrors.dotsrc.org/porteus/x86_64/) - популярный модульный дистрибутив, с основой на slackware.
->   - Nemesis: [описание](https://distrowatch.com/table.php?distribution=nemesis), [зеркало](https://sourceforge.net/projects/nemesis-linux/) - "форк" porteus с использованием artix.
->   - Puzzle: [вики](https://wiki.puppyrus.org/users_os/puzzle) - "форк" porteus с использованием arch.
->   - Slackware: [сайт](http://www.slackware.com/index.php), [зеркало](https://mirrors.slackware.com/feeds/) - старейший дистрибутив с проверенной стабильностью.
->   - Arch (base): [вики](https://archlinux.org/download/) - популярный дистрибутив с собственной архитектурой и пакетным менеджером pacman.
->   - Artix: [описание](https://artixlinux.org/), [зеркало](https://mirrors.dotsrc.org/artix-linux/iso/) - дистрибутив на базе arch с удаленным systemd.
+>   - **Slax**: [сайт](https://www.slax.org/), [зеркало](https://ftp.cvut.cz/slax/) - легковесный модульный дистрибутив, с основой на debian или slackware.
+>   - **Porteus**: [форум](https://forum.porteus.org/), [зеркало](https://mirrors.dotsrc.org/porteus/x86_64/) - популярный модульный дистрибутив, с основой на slackware.
+>   - **Nemesis**: [описание](https://distrowatch.com/table.php?distribution=nemesis), [зеркало](https://sourceforge.net/projects/nemesis-linux/) - "форк" porteus с использованием artix.
+>   - **Puzzle**: [вики](https://wiki.puppyrus.org/users_os/puzzle) - "форк" porteus с использованием arch.
+>   - **Slackware**: [сайт](http://www.slackware.com/index.php), [зеркало](https://mirrors.slackware.com/feeds/) - старейший дистрибутив с проверенной стабильностью.
+>   - **Arch (base)**: [вики](https://archlinux.org/download/) - популярный дистрибутив с собственной архитектурой и пакетным менеджером pacman.
+>   - **Artix**: [описание](https://artixlinux.org/), [зеркало](https://mirrors.dotsrc.org/artix-linux/iso/) - дистрибутив на базе arch с удаленным systemd.
