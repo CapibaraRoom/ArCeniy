@@ -20,7 +20,7 @@ partition-1/                -- ESP-раздел
 
 ## Сборка ```bootx64.efi```
 
-Для сборки ```bootx64.efi``` необходимо создать дополнительный ```embedgrub.cfg```, который будет вшит в загрузчик. Содержимое этого файла:
+Для сборки ```bootx64.efi``` необходимо создать дополнительный ```grub.cfg```, который будет вшит в загрузчик. Содержимое этого файла:
 ```
 search --set=root --file /boot/grub/artixsig
 configfile /boot/grub/grub.cfg
@@ -32,9 +32,9 @@ configfile /boot/grub/grub.cfg
 Единый блок команд для сборки:
 ```
 echo "search --set=root --file /boot/grub/artixsig
-configfile /boot/grub/grub.cfg" > embedgrub.cfg
+configfile /boot/grub/grub.cfg" > grub.cfg
 
 grub-mkstandalone -O x86_64-efi -o bootx64.efi \
   --modules="part_gpt ext2 fat search efi_gop efi_uga gfxterm" \
-  "boot/grub/grub.cfg=embedgrub.cfg"
+  "boot/grub/grub.cfg=grub.cfg"
 ```
